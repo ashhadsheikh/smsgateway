@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name          = 'smsgateway'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.date          = '2018-06-10'
   s.summary       = 'A ruby gem to interact with smsgateway.me API!'
   s.description   = 'A ruby gem to interact with smsgateway.me API'
@@ -10,4 +10,5 @@ Gem::Specification.new do |s|
   s.files         = ['lib/smsgateway.rb', 'lib/api.rb']
   s.license       = 'MIT'
   s.require_paths = ['lib']
+  s.add_runtime_dependency 'gem_config'
 end
