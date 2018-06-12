@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   s.description   = 'A ruby gem to interact with smsgateway.me API'
   s.authors       = ['Ashhad Sheikh']
   s.email         = 'ashhadsheikh@hotmail.com'
+  s.homepage      = 'https://github.com/ashhadsheikh/smsgateway'
   s.files         = ['lib/smsgateway.rb', 'lib/api.rb']
   s.license       = 'MIT'
   s.require_paths = ['lib']
