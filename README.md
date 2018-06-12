@@ -5,7 +5,16 @@ A ruby gem to interact with smsgateway.me API which is most popular for sending 
 In order to turn your Android phone into a SMS Gateway you will need to download the app. The app allows you to communicate to your device using our API service. You can download the SMS Gateway API app free on the Android play store.
 * **Sign Up for a free SMS Gateway account**
 In order to use the SMS Gateway API service you will need to open your self an account with on SMSGateway.me. The account is completely free! You can register on the SMS Gateway API app or on [website](https://smsgateway.me/sms-api-documentation/getting-started).
-* **Install Gem in your Rails APP and you're ready to go**
+* **Go to Web Portal and Copy your Authorization Token from SMSGateway.me portal**
+* **Configure your application to include authorization token**
+```ruby
+# config/initializers/smsgateway.rb
+SMSGateway.configure do |config|
+  config.authorization_token = 'your_authorization_token_from_web_portal'
+end
+# or
+SMSGateway.configuration.authorization_token = 'your_authorization_token_from_web_portal'
+```
 
 ## Installation
 
