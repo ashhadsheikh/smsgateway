@@ -39,7 +39,9 @@ For complete usage instructions and configuration reference, see our individual 
   
 ## Help / Support
 If you run into any issues, please email us at [ashhadsheikh@hotmail.com](mailto:ashhadsheikh@hotmail.com)
+
 For bug reports, please [open an issue on GitHub](https://github.com/ashhadsheikh/smsgateway/issues/new).
+
 ## Contributing
 1. Fork it
 2. Create your feature branch (```git checkout -b my-new-feature```).
@@ -48,4 +50,9 @@ For bug reports, please [open an issue on GitHub](https://github.com/ashhadsheik
 5. Create new Pull Request
 
 ## License
+
 smsgateway is free software released under the MIT License. See [LICENSE.txt](LICENSE.txt) for details.
+
+## Code of Conduct
+
+Everyone interacting in the Smsgateway project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/ashhadsheikh/smsgateway/blob/master/CODE_OF_CONDUCT.md).
