@@ -1,6 +1,10 @@
 # smsgateway
+[![Gem Version](https://badge.fury.io/rb/smsgateway.svg)](https://badge.fury.io/rb/smsgateway)
+
 A ruby gem to interact with smsgateway.me API which is most popular for sending messages via your android phone. 
+
 ## Getting Started
+
 * **[Download The app from Play Store](https://play.google.com/store/apps/details?id=networked.solutions.sms.gateway.api&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1)**
 In order to turn your Android phone into a SMS Gateway you will need to download the app. The app allows you to communicate to your device using our API service. You can download the SMS Gateway API app free on the Android play store.
 * **Sign Up for a free SMS Gateway account**
@@ -31,6 +35,7 @@ Or install it yourself as:
     $ gem install smsgateway
 
 ## Usage and Reference
+
 For complete usage instructions and configuration reference, see our individual object pages.
 * [SMSGateway::Message](docs/MESSAGE.md)
 * [SMSGateway::Device](docs/DEVICE.md)
@@ -38,11 +43,13 @@ For complete usage instructions and configuration reference, see our individual 
 * [SMSGateway::Contact](docs/CONTACT.md)
   
 ## Help / Support
+
 If you run into any issues, please email us at [ashhadsheikh@hotmail.com](mailto:ashhadsheikh@hotmail.com)
 
 For bug reports, please [open an issue on GitHub](https://github.com/ashhadsheikh/smsgateway/issues/new).
 
 ## Contributing
+
 1. Fork it
 2. Create your feature branch (```git checkout -b my-new-feature```).
 3. Commit your changes (```git commit -am 'Added some feature'```)
