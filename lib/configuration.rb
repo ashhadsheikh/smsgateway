@@ -1,9 +1,9 @@
 module SMSGateway
     class Configuration
-        attr_accessor :auth_token
+        attr_accessor :authorization_token
 
         def def initialize
-          @auth_token = nil
+          @authorization_token = nil
         end
     end
 end
