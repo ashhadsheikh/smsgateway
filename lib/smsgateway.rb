@@ -1,19 +1,27 @@
 require 'json'
 require 'api'
-require 'gem_config'
+require 'configuration'
 
 module SMSGateway
-  include GemConfig::Base
 
-  with_configuration do
-    has :authorization_token, classes: String
+  class << self
+    attr_accessor :configuration
   end
+
+  def self.configuration
+    @configuration ||= Configuration.new
+  end
+
+  def self.configure
+    yield(configuration)
+  end
+
 
   class Message
 
     API_ENDPOINT = 'message/'
 
-    attr_accessor :device_id, :phone_number, :message, :id, :status, :created_at, :updated_at, :log
+    attr_accessor  :device_id, :phone_number, :message, :id, :status, :created_at, :updated_at, :log
 
     def initialize(device_id, phone_number, message, id = nil, status = nil, created_at = nil, updated_at = nil, log = nil)  
       @id           = id

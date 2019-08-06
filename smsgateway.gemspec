@@ -12,12 +12,11 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A ruby gem to interact with smsgateway.me API}
   spec.homepage      = "https://github.com/ashhadsheikh/smsgateway"
   spec.license       = "MIT"
-  spec.files            = ['lib/smsgateway.rb', 'lib/api.rb']
+  spec.files            = ['lib/configuration.rb', 'lib/smsgateway.rb', 'lib/api.rb']
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
   spec.license       = 'MIT'
-  spec.add_runtime_dependency 'gem_config'
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
